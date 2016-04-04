@@ -1,6 +1,6 @@
 package utn.frd.action;
 
-
+import java.util.List;
 import utn.frd.bean.PersistentManager;
 import utn.frd.bean.Persona;
 
@@ -9,6 +9,8 @@ public class PersonaAction {
 	private String name;
 	private String age;
 	private String gender; 
+	private List<Persona> personas;
+
 	
 	public String save(){
 		personas = PersistentManager.getInstance();
@@ -25,4 +27,10 @@ public class PersonaAction {
 		
 		return SUCCESS;
 	}
+	public String execute(){
+		personas = PersistentManager.getInstance();
+		
+		return SUCCESS;
+	}
+
 }
