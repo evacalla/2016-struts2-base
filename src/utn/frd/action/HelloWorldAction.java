@@ -1,7 +1,6 @@
 package utn.frd.action;
 
 import utn.frd.bean.MessageStore;
-
 import com.opensymphony.xwork2.ActionSupport;
 
 /* todos los actions de struts2 tienen que heredar de ActionSupport */
