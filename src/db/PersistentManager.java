@@ -1,7 +1,9 @@
-package utn.frd.bean;
+package db;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import utn.frd.bean.Persona;
 
 public class PersistentManager {
 	
